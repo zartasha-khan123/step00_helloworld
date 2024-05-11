@@ -1,12 +1,20 @@
-// question no 1
+// QUESTION NO 1
 console.log("hello world");
-// qno 2
+
+
+
+
+
+// QUESTION NO 2
 let personName: string = "zartashimran";
 console.log(
   `"hello ${personName},would you like to learn some phython today?"`
 );
 
-// question no 3
+
+
+
+// QUESTION NO 3
 //uppercase
 
 let personName1: string = "zartashimran";
@@ -21,26 +29,38 @@ console.log(personName2.toLowerCase());
 let personName4: string = "zartashimran";
 console.log(personName4.replace(/\b\w/g, (c) => c.toUpperCase()));
 
-//question no 4
+
+
+
+//QUESTION NO 4
 
 let quote: string =
   "A person who never made a mistake never tried anything new.";
 let author: string = "Albert Einstein";
 console.log(`${author} ! once said, "${quote}"`);
 
-//qestion no 5
+
+
+
+//QUESTION NO 5 
 
 let famous_person: string = "Albert Einstein";
 let message: string = `${famous_person} once said, "${quote}"`;
 console.log(message);
 
-// question no 6
+
+
+
+
+// QUESTION NO 6
 
 let personName5: string = "\n\t   zartashimran \t\n";
 console.log("original:", personName5);
 console.log("stripped:", personName5.trim());
 
-//question no 7
+
+
+//QUESTION NO 7
 
 let operations: number = 8;
 let a = 3 + 5;
@@ -52,20 +72,27 @@ console.log(b);
 console.log(c);
 console.log(d);
 
-//question no 8
+
+
+
+//QUESTION NO 8
 
 console.log(5 + 3);
 console.log(9 - 1);
 console.log(4 * 2);
 console.log(16 / 2);
 
-//question no 9
+//QUESTION NO 9
 
 let favoriteNumber: number = 66;
 let number: string = "reveals : my favorite number";
 console.log(`${number} is ${favoriteNumber}`);
 
-// question no 10
+
+
+
+
+// QUESTION NO 10
 
 // my name is zartash imran
 // today current date is 2nd march 2024
@@ -79,7 +106,14 @@ console.log("hello everyone");
 // assume this is my 2nd file and iam doing program "2" which is about adding two digits together
 console.log(2 + 2);
 
-//question no 11
+
+
+
+
+
+
+//QUESTION NO 11
+
 //Names: Store the names of a few of your friends in a array called names. Print each person’s name by accessing each element in the list, one at a time.
 let names: string[] = ["alisba", "alina", "zara", "kulsoom", "nadia", "madiha"];
 console.log(names[0]);
@@ -100,6 +134,10 @@ let names1: string[] = [
 for (let i = 0; i <= names1.length; i++) {
   console.log(names1[i]);
 }
+
+
+
+
 
 //question no 12
 
@@ -125,13 +163,22 @@ for (let i = 0; i < persons.length; i++) {
   console.log(greetings + persons[i]);
 }
 
-//question no 13
+
+
+
+
+//QUESTION NO 13
 let array: string[] = ["motorcycle", "car", "truck", "bus", "sportbike"];
 
 for (let i = 0; i < array.length; i++) {
   console.log("“I would like to own a " + array[i]);
 }
-//question no 14
+
+
+
+
+
+//QUESTION NO 14
 
 let guest_list: string[] = ["grandparents", "father", "mother"];
 
@@ -142,7 +189,12 @@ for (let i = 0; i < guest_list.length; i++) {
       ",\n\nIt is a great pleasure to come on dinner   \n\nThank you"
   );
 }
-//question no 15
+
+
+
+
+
+//QUESTION NO 15
 
 let guest_list1: string[] = ["father", "grandparesnts", "mother"];
 
@@ -166,7 +218,13 @@ for (let i = 0; i < guest_list1.length; i++) {
 }
 console.log(`Dear, ${absent_guest} is not coming to the dinner`);
 
-// question no 16
+
+
+
+
+
+
+// QUESTION NO 16
 let guest_list2: string[] = ["father", "grandparesnts", "mother"];
 
 let absent_guest1: string = "father";
@@ -196,7 +254,13 @@ for (let i = 0; i < guest_list2.length; i++) {
 
 console.log(guest_list2);
 
-// question no 17
+
+
+
+
+
+
+// QUESTION NO 17
 let guest_list3: string[] = ["father", "grandparesnts", "mother"];
 let absent_guest2: string = "father";
 let new_guest2: string = "sibblings";
@@ -238,7 +302,13 @@ for (let i = 0; i < guest_list3.length; i++) {
 guest_list3.splice(0, 2);
 console.log(guest_list3);
 
-// question no 18
+
+
+
+
+
+
+// QUESTION NO 18
 //• Store the locations in a array. Make sure the array is not in alphabetical order.
 let places: string[] = [
   "Qatar",
@@ -275,6 +345,10 @@ console.log("original " + places.sort());
 
 //• Sort to change your array so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.
 console.log("original " + places.sort().reverse());
+
+
+
+
 
 //QUESTION NO 19
 let guest_list4: string[] = ["father", "grandparesnts", "mother"];
@@ -314,6 +388,11 @@ console.log(guest_list4);
 
 console.log(`Total number of guest are ${guest_list4.length}`);
 
+
+
+
+
+
 //QUESTION NO 20
 
 //Think of something you could store in a array.
@@ -325,6 +404,10 @@ country.push("Canada");
 country.push("Australia");
 country.push("Malaysia");
 console.log(country);
+
+
+
+
 
 //QUESTION 21
 //They think of something you could store in a TypeScript Object.
@@ -349,6 +432,11 @@ let dresses = {
 };
 console.log(dresses);
 
+
+
+
+
+
 //QUESTION NO 22
 //Intentional Error: If you haven’t received an array index error in one of your programs yet,
 //try to make one happen.
@@ -362,6 +450,13 @@ console.log(newArray[4]);
 //correct error
 
 console.log(newArray);
+
+
+
+
+
+
+
 
 //QUESTION NO 23
 
@@ -419,6 +514,10 @@ console.log("Is car.upperCase == 'SUPARU'? I predict false.");
 
 console.log(car.toLocaleUpperCase() == "SUPARU");
 
+
+
+
+
 //QUESTION NO 24
 
 //Tests for equality and inequality with strings
@@ -465,6 +564,9 @@ console.log("Test an item in a array: ", city.includes("karachi"));
 
 console.log("Test orange item is not in a array: ", !city.includes("orange"));
 
+
+
+
 //QUESTION NO 25
 
 //Alien Colors #1: Imagine an alien was just shot down in a game.
@@ -484,6 +586,10 @@ alien_color = "red";
 if (alien_color === "green") {
   console.log("player just earned 5 points"); //(The version that fails will have no output.)
 }
+
+
+
+
 
 //QUESTION NO 26
 
@@ -512,6 +618,10 @@ if (alien_colors === "green") {
 } else {
   console.log("The player just earned 10 points");
 }
+
+
+
+
 
 //QUESTION NO 27
 
@@ -559,6 +669,9 @@ if (alien === "green") {
   console.log("Please select right colour");
 }
 
+
+
+
 // question no 28
 
 // Stages of Life: Write an if-else chain that determines a person’s stage of life. Set a value for the variable age, and then:
@@ -605,6 +718,10 @@ else {
   console.log("person is an elder");
 }
 
+
+
+
+
 // QUESTION NO 29;
 
 //Favorite Fruit: Make a array of your favorite fruits, and then write a series of independent if statements that check for certain fruits in your array.
@@ -631,6 +748,9 @@ if (favorite_fruits.includes("strawberry")) {
   console.log("i really like strawberry!");
 }
 
+
+
+
 // QUESTION NO 30
 
 //Hello Admin: Make a array of five or more usernames, including the name 'admin'.
@@ -656,6 +776,10 @@ for (let i = 0; i < array_users.length; i++) {
   }
 }
 
+
+
+
+
 // QUESTION NO 31
 
 // No Users: Add an if test to Exercise 28 to make sure the list of users is not empty.
@@ -672,6 +796,9 @@ else {
   user_names = [];
   console.log("all usernames have been removed " + user_names.length);
 }
+
+
+
 
 // QUESTION NO 32
 
@@ -701,6 +828,9 @@ new_users.forEach((newUser) => {
   }
 });
 
+
+
+
 // QUESTION NO : 33
 
 //Ordinal Numbers: Ordinal numbers indicate their position in a array, such as 1st or 2nd. Most ordinal numbers end in th, except 1, 2, and 3.
@@ -726,6 +856,9 @@ for (let num of ordinalNum) {
   console.log(` ${num} ${ordinalEnding}`);
 }
 
+
+
+
 //QUESTION NO 34
 
 //Pizzas: Think of at least three kinds of your favorite pizza. Store these pizza names in a array,
@@ -747,6 +880,9 @@ for (let pizza of favorite_pizza) {
 
 console.log(` I really love pizza`);
 
+
+
+
 //QUESTION NO 35
 
 //Animals: Think of at least three different animals that have a common characteristic.
@@ -766,6 +902,9 @@ console.log(`   These animals have in common characteristics`);
 //You could print a sentence such as Any of these animals would make a great pet!
 console.log(`  These animals would make a great pet `);
 
+
+
+
 // QUESTION NO 36
 
 //T-Shirt: Write a function called make_shirt() that accepts a size and the text of a message
@@ -782,6 +921,9 @@ make_shirt("large", "hello world");
 make_shirt("medium", "hello world");
 
 make_shirt("small", "hello world");
+
+
+
 
 //QUESTION NO 37
 
@@ -801,6 +943,9 @@ make_shirt1();
 make_shirt1("medium");
 
 make_shirt1("small", "I love javasript");
+
+
+
 
 //QUESTION 38
 
@@ -843,9 +988,6 @@ console.log(city_country("Karachi", "Pakistan"));
 console.log(city_country("Kulalumpur", "Malaysia"));
 
 console.log(city_country("Tokyo", "Japan"));
-
-
-
 
 
 
